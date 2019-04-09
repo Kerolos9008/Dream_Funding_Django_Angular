@@ -1,0 +1,40 @@
+1- git clone https://github.com/Kerolos9008/Dream_Funding_Django_Angular
+2- to show the available branchs > git branch
+	you will see the master branch only 
+	to display all branchs	> git branch -a 
+3- copy your branch after remotes/origin/
+	e.g remotes/origin/front-end-login-rahma
+4- create your local branch >git checkout front-end-login-rahma
+	****you must see this msg
+	Branch 'front-end-login-rahma' set up to track remote branch 'front-end-login-rahma' from 'origin'.
+Switched to a new branch 'front-end-login-rahma'
+
+*******************************************************
+**make sure you are in your branch after next steps **
+>git branch 
+
+
+you will see the * before your branch name, if not please make sure yo do step 4 again
+********************************************************
+
+5- now you are on your branch, you will need to do only 2 things
+	1- to pull another branch changes to your repo 
+		> git pull origin database-modeles-nada 
+	2- to push your work
+		>git add .
+		>git commit -m “your msg here “
+		>git push origin front-end-alogin-rahma
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+please note that:
+*the node_modules directory will not be downloaded to your local repo, cuz it’s depend on your OS, 
+so it’s included to .gitignore file, you don’t need to remove this file by the way.
+*you need to set up your libraries using npm commands
+*the main libraries were installed (express,mongoose)
+*if you install another lib please tell us.
+*we need the environment variables for DB
+
+
+to merge a2of 3la master2 w 
+>git merge child branch
+
+** Kolo ye3mel pull men 3ala master2 w ye3mel push 3la el branch beta3oh wana ha merge 
